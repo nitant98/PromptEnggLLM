@@ -166,6 +166,9 @@ Run the model using the command specific to your operating system.
 Once the model is running, interact with it by entering text queries. It will respond similarly to ChatGPT, though response times may vary based on your CPU performance.
 
 
+![Screenshot 2024-06-21 185824](https://github.com/nitant98/PromptEnggLLM/assets/37144821/ac3635fa-b652-4262-9377-ddfe549bbb80)
+
+
 # Youtube - https://www.youtube.com/watch?v=9g2ZjDGf8o4
 
 
