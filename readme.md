@@ -86,8 +86,6 @@ Replace <input_text> with the text you want to process
 
 ![Ollama](https://github.com/nitant98/PromptEnggLLM/assets/37144821/9add6e72-3297-4661-913b-ee9c3e3eeaca)
 
-# Youtube (Ollama) - https://www.youtube.com/watch?v=9g2ZjDGf8o4
-
 ## GPT4All Installation and Usage Guide
 
 This guide provides comprehensive instructions for installing and running the GPT4All model locally on your CPU. Each step is detailed to help you understand and execute the setup successfully.
@@ -167,11 +165,7 @@ Run the model using the command specific to your operating system.
 
 Once the model is running, interact with it by entering text queries. It will respond similarly to ChatGPT, though response times may vary based on your CPU performance.
 
-#### Updating the Installation
 
-To keep your GPT4All installation up to date, periodically pull the latest changes from the repository:
-- Navigate to your main install folder and run:
-  ```bash
-  git pull
+# Youtube (Ollama) - https://www.youtube.com/watch?v=9g2ZjDGf8o4
 
 
