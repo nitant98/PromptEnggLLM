@@ -1,6 +1,6 @@
 # Local LLM Setup Guide
 
-This repository contains all the necessary scripts, configuration files, and documentation required to set up and run two different large language models (LLMs) locally: Llama3 using the Ollama Python library, and [Second Model Name]. This project was created as part of Prompt Engineering Class to demonstrate practical skills in handling sophisticated machine learning models directly on a local machine.
+This repository contains all the necessary scripts, configuration files, and documentation required to set up and run two different large language models (LLMs) locally: Llama3 using the Ollama Python library, and GPT4All. This project was created as part of Prompt Engineering Class to demonstrate practical skills in handling sophisticated machine learning models directly on a local machine.
 
 ## Overview
 
@@ -11,13 +11,9 @@ The goal of this project is to:
 - Compare the performance of both models using identical prompts.
 
 ## Repository Contents
-
-- `llama3/`: This directory contains all scripts and files needed to set up and run the Llama3 model.
-- `[Second Model Name]/`: This directory includes all necessary scripts and files for the second chosen model.
+- `GPT4ALL/`: This directory includes all necessary scripts and files for the second chosen model.
 - `README.md`: This file, which provides an overview and setup instructions.
-- `setup_scripts/`: Contains any scripts used to automate parts of the installation process for both models.
-- `configurations/`: Configuration files necessary for running the models.
-
+- 
 ## Setup Instructions
 
 ### Llama3 Installation and Usage Guide
