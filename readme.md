@@ -65,7 +65,8 @@ pip install tensorflow
 ```
 #### 6. Run Ollama
 
-To start Ollama, open Command Prompt and navigate to the Ollama installation directory:
+To start Ollama, open Command Prompt and navigate to 
+the Ollama installation directory:
 
 ```sh
 cd C:\Program Files\Ollama
@@ -82,6 +83,8 @@ ollama run <input_text>
 ```
 Replace <input_text> with the text you want to process
 
+
+![Ollama](https://github.com/nitant98/PromptEnggLLM/assets/37144821/9add6e72-3297-4661-913b-ee9c3e3eeaca)
 
 ## GPT4All Installation and Usage Guide
 
