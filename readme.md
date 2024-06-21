@@ -72,15 +72,16 @@ cd C:\Program Files\Ollama
 ollama
 
 ollama load <model_name>
-Replace <model_name> with the name of the model you wish to load.
 ```
+Replace <model_name> with the name of the model you wish to load.
 
 #### 7. Chat with Ollama
 
 ```sh
 ollama run <input_text>
-Replace <input_text> with the text you want to process
 ```
+Replace <input_text> with the text you want to process
+
 
 ## GPT4All Installation and Usage Guide
 
