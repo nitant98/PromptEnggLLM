@@ -62,6 +62,9 @@ Open Command Prompt and run the following commands to install necessary Python l
 pip install numpy
 pip install pandas
 pip install tensorflow
+```
+
+
 
 ### GPT4All Installation and Usage Guide
 
