@@ -63,10 +63,26 @@ pip install numpy
 pip install pandas
 pip install tensorflow
 ```
+#### 6. Run Ollama
 
+To start Ollama, open Command Prompt and navigate to the Ollama installation directory:
 
+```sh
+cd C:\Program Files\Ollama
+ollama
 
-### GPT4All Installation and Usage Guide
+ollama load <model_name>
+Replace <model_name> with the name of the model you wish to load.
+```
+
+#### 7. Chat with Ollama
+
+```sh
+ollama run <input_text>
+Replace <input_text> with the text you want to process
+```
+
+## GPT4All Installation and Usage Guide
 
 This guide provides comprehensive instructions for installing and running the GPT4All model locally on your CPU. Each step is detailed to help you understand and execute the setup successfully.
 
