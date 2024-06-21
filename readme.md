@@ -1,6 +1,6 @@
 # Local LLM Setup Guide
 
-This repository contains all the necessary scripts, configuration files, and documentation required to set up and run two different large language models (LLMs) locally: Llama3 using the Ollama Python library, and [Second Model Name]. This project was created as part of [Your Course/Class Name] to demonstrate practical skills in handling sophisticated machine learning models directly on a local machine.
+This repository contains all the necessary scripts, configuration files, and documentation required to set up and run two different large language models (LLMs) locally: Llama3 using the Ollama Python library, and [Second Model Name]. This project was created as part of Prompt Engineering Class to demonstrate practical skills in handling sophisticated machine learning models directly on a local machine.
 
 ## Overview
 
@@ -32,7 +32,7 @@ Before proceeding, ensure that you have the following prerequisites installed on
 
 #### Installation Steps
 
-##### Step 1: Install Ollama Service
+#### Step 1: Install Ollama Service
 
 The Ollama service acts as a server on your local machine that facilitates communication between the Python script and the Llama3 model.
 
@@ -50,7 +50,7 @@ The Ollama service acts as a server on your local machine that facilitates commu
      ```
    - This command launches the Ollama server, which will listen for requests from the Python library.
 
-##### Step 2: Install Ollama Python Library
+#### Step 2: Install Ollama Python Library
 
 This library provides a Python interface to interact with the Llama3 model through the Ollama service.
 
