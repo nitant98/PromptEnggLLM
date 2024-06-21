@@ -166,6 +166,6 @@ Run the model using the command specific to your operating system.
 Once the model is running, interact with it by entering text queries. It will respond similarly to ChatGPT, though response times may vary based on your CPU performance.
 
 
-# Youtube (Ollama) - https://www.youtube.com/watch?v=9g2ZjDGf8o4
+# Youtube - https://www.youtube.com/watch?v=9g2ZjDGf8o4
 
 
