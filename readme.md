@@ -1,16 +1,38 @@
-# Llama3 Installation and Usage Guide
+# Local LLM Setup Guide
+
+This repository contains all the necessary scripts, configuration files, and documentation required to set up and run two different large language models (LLMs) locally: Llama3 using the Ollama Python library, and [Second Model Name]. This project was created as part of [Your Course/Class Name] to demonstrate practical skills in handling sophisticated machine learning models directly on a local machine.
+
+## Overview
+
+The goal of this project is to:
+- Download, install, and run the Llama3 model using the Ollama library.
+- Download, install, and run a second LLM of choice.
+- Document the setup process and interactions with both models using the curl command.
+- Compare the performance of both models using identical prompts.
+
+## Repository Contents
+
+- `llama3/`: This directory contains all scripts and files needed to set up and run the Llama3 model.
+- `[Second Model Name]/`: This directory includes all necessary scripts and files for the second chosen model.
+- `README.md`: This file, which provides an overview and setup instructions.
+- `setup_scripts/`: Contains any scripts used to automate parts of the installation process for both models.
+- `configurations/`: Configuration files necessary for running the models.
+
+## Setup Instructions
+
+### Llama3 Installation and Usage Guide
 
 This guide provides step-by-step instructions for installing and running the Llama3 model locally using the Ollama Python library. Each step is explained in detail to ensure a smooth setup and operation.
 
-## Prerequisites
+#### Prerequisites
 
 Before proceeding, ensure that you have the following prerequisites installed on your system:
 - **Python 3.x**: The programming language used to interact with Llama3. Ensure Python 3.x is installed as the Ollama library is compatible with Python 3.
 - **pip**: The Python package installer, used to install the Ollama library. Comes installed with Python 3.4 and above.
 
-## Installation Steps
+#### Installation Steps
 
-### Step 1: Install Ollama Service
+##### Step 1: Install Ollama Service
 
 The Ollama service acts as a server on your local machine that facilitates communication between the Python script and the Llama3 model.
 
@@ -28,7 +50,7 @@ The Ollama service acts as a server on your local machine that facilitates commu
      ```
    - This command launches the Ollama server, which will listen for requests from the Python library.
 
-### Step 2: Install Ollama Python Library
+##### Step 2: Install Ollama Python Library
 
 This library provides a Python interface to interact with the Llama3 model through the Ollama service.
 
@@ -38,9 +60,9 @@ This library provides a Python interface to interact with the Llama3 model throu
      pip install ollama
      ```
 
-## Using Llama3 with Ollama Python Library
+### Using Llama3 with Ollama Python Library
 
-### Basic Interaction
+#### Basic Interaction
 
 Interact with Llama3 by sending text prompts and receiving text responses.
 
@@ -62,7 +84,7 @@ Interact with Llama3 by sending text prompts and receiving text responses.
      python llama_interaction.py
      ```
 
-### Streaming Responses
+#### Streaming Responses
 
 For applications requiring real-time interaction, you can stream responses from Llama3.
 
@@ -87,7 +109,7 @@ For applications requiring real-time interaction, you can stream responses from 
      python llama_interaction.py
      ```
 
-## Troubleshooting
+### Troubleshooting
 
 If issues arise:
 - **Check Service**: Ensure the Ollama service is actively running in the background.
